@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto' , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
 }
 
 body{
@@ -29,4 +32,92 @@ h1{
   color: #f4f4f4;
   text-align: center;
   padding: 25px;
+}
+
+main{
+  padding: 24px;
+}
+
+label{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7777;
+}
+
+select {
+  background: #fff;
+  border: 1px solid #bbbb;
+  border-radius: 4px;
+  height: 48px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  padding-left: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0,0.15);
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
+input{
+  background: #fff;
+  border: 1px solid #bbbb;
+  border-radius: 4px;
+  height: 48px;
+  display: block;
+  width: 100%;
+  outline: none;
+  padding-left: 16px;
+  box-shadow: 2px 2px 5px rgba(0, 0,0.15);
+  font-size: 18px;
+}
+
+button{
+  background: #1bb3e2;
+  border-radius: 25px;
+  height:48px;
+  cursor: pointer;
+  color: #f4f4f4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 18px;
+  border: none;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+
+button:hover{
+  background: #0d8dbc;
+  transition: 0.7s;
+}
+
+section{
+  border: 1px solid #1bb3e2;
+  border-radius: 4px;
+}
+
+.section-container{
+  text-align: center;
+  padding: 10px;
+}
+
+.name{
+  color: #7777;
+  font-size: 14px;
+}
+
+.money{
+  color: #1bb3e2;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.seta{
+  display: block;
+  margin: 15px auto;
 }
