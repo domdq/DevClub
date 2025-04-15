@@ -76,7 +76,7 @@ input{
 }
 
 button{
-  background: #1bb3e2;
+  background: #1b83E2;
   border-radius: 25px;
   height:48px;
   cursor: pointer;
@@ -97,7 +97,7 @@ button:hover{
 }
 
 section{
-  border: 1px solid #1bb3e2;
+  border: 1px solid #1b83E2;
   border-radius: 4px;
 }
 
@@ -112,7 +112,7 @@ section{
 }
 
 .money{
-  color: #1bb3e2;
+  color: #1b83E2;
   font-weight: bold;
   font-size: 24px;
 }
